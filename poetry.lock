@@ -847,14 +847,14 @@ asymmetric_crypto = ["cryptography (>=2.3)"]
 
 [[package]]
 name = "flask-limiter"
-version = "1.4"
+version = "2.0.0"
 description = "Rate limiting for flask applications"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 
 [package.dependencies]
-Flask = ">=0.8"
+Flask = "*"
 limits = "*"
 six = ">=1.4.1"
 
@@ -2642,7 +2642,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.6"
-content-hash = "24dd6a519f3ea5276c8030ba355af35faa0a593c9c7a242faf6824ce988e5a36"
+content-hash = "2b743eff2430947f645e3166a94ff4758a0794acd103b51fcc387ce28283790f"
 
 [metadata.files]
 aiohttp = [
@@ -3040,9 +3040,9 @@ flask-jwt-extended = [
     {file = "Flask-JWT-Extended-3.25.0.tar.gz", hash = "sha256:b2e4dba91661e4697b30269106386c2b29e416a00d9ff66b26c462edddc10078"},
 ]
 flask-limiter = [
-    {file = "Flask-Limiter-1.4.tar.gz", hash = "sha256:021279c905a1e24f181377ab3be711be7541734b494f4e6db2b8edeba7601e48"},
-    {file = "Flask_Limiter-1.4-py3-none-any.whl", hash = "sha256:f8a65a7874f48ff8df2ea5e86d5b85b48fcbae065ebeb5271b317fe68fcfa979"},
-    {file = "Flask_Limiter-1.4-py3.7.egg", hash = "sha256:055a388a89f4d5768c64025443f1f41e3babcbbbf315c728413c27b4975af239"},
+    {file = "Flask-Limiter-2.0.0.tar.gz", hash = "sha256:d0c103eaa0fd48b95795c098552c9cf09694c4d17b1db967b7f2756ea4bd0a1d"},
+    {file = "Flask_Limiter-2.0.0-py3-none-any.whl", hash = "sha256:7eb06182ad66765b0309f54d00f6f69253a6ae4804063f4b75b14124c03e9b55"},
+    {file = "Flask_Limiter-2.0.0-py3.9.egg", hash = "sha256:ba2761ca2b7dfafaf7e7c7517b78e3ed2f9c6532c7908135ff392bfbc0329b72"},
 ]
 flask-login = [
     {file = "Flask-Login-0.5.0.tar.gz", hash = "sha256:6d33aef15b5bcead780acc339464aae8a6e28f13c90d8b1cf9de8b549d1c0b4b"},
