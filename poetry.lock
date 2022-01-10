@@ -1721,11 +1721,11 @@ typer = ">=0.4.0,<0.5.0"
 
 [[package]]
 name = "pycountry"
-version = "20.7.3"
+version = "22.1.10"
 description = "ISO country, subdivision, language, currency and script definitions and their translations"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.5, <4"
 
 [[package]]
 name = "pycparser"
@@ -2631,7 +2631,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.6"
-content-hash = "8f946cb1ffc218c5ff09ac455accdb4150a92caf6906e5dd552a81cb86167f99"
+content-hash = "23a101a2cb9df2b72cfc358ca9dbaeeb89131b039732342d9d24538b0f46bacb"
 
 [metadata.files]
 aiohttp = [
@@ -3566,7 +3566,7 @@ pycln = [
     {file = "pycln-1.1.0.tar.gz", hash = "sha256:b14e610524400e5fdfc3891a2880606866281eb233f940aa5c08e1657bd76bea"},
 ]
 pycountry = [
-    {file = "pycountry-20.7.3.tar.gz", hash = "sha256:81084a53d3454344c0292deebc20fcd0a1488c136d4900312cbd465cf552cb42"},
+    {file = "pycountry-22.1.10.tar.gz", hash = "sha256:b9a6d9cdbf53f81ccdf73f6f5de01b0d8493cab2213a230af3e34458de85ea32"},
 ]
 pycparser = [
     {file = "pycparser-2.21-py2.py3-none-any.whl", hash = "sha256:8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"},
