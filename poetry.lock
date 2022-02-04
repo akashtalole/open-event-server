@@ -2417,7 +2417,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "uvicorn"
-version = "0.17.0.post1"
+version = "0.17.4"
 description = "The lightning-fast ASGI server."
 category = "main"
 optional = false
@@ -2632,7 +2632,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.6"
-content-hash = "938f2b3ae7ef08530a445245d4755f17d1d5d8347b2d2a5eeff9ba0a5c9db7d8"
+content-hash = "5192b37d356fa5766a10e391a74c5ec0a085b01be04d66c2676fac09340e6bd8"
 
 [metadata.files]
 aiohttp = [
@@ -2866,9 +2866,6 @@ coverage = [
     {file = "coverage-6.3-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:2bc85664b06ba42d14bb74d6ddf19d8bfc520cb660561d2d9ce5786ae72f71b5"},
     {file = "coverage-6.3-cp310-cp310-win32.whl", hash = "sha256:27a94db5dc098c25048b0aca155f5fac674f2cf1b1736c5272ba28ead2fc267e"},
     {file = "coverage-6.3-cp310-cp310-win_amd64.whl", hash = "sha256:bde4aeabc0d1b2e52c4036c54440b1ad05beeca8113f47aceb4998bb7471e2c2"},
-    {file = "coverage-6.3-cp311-cp311-macosx_10_14_x86_64.whl", hash = "sha256:509c68c3e2015022aeda03b003dd68fa19987cdcf64e9d4edc98db41cfc45d30"},
-    {file = "coverage-6.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:e4ff163602c5c77e7bb4ea81ba5d3b793b4419f8acd296aae149370902cf4e92"},
-    {file = "coverage-6.3-cp311-cp311-win_amd64.whl", hash = "sha256:d1675db48490e5fa0b300f6329ecb8a9a37c29b9ab64fa9c964d34111788ca2d"},
     {file = "coverage-6.3-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:7eed8459a2b81848cafb3280b39d7d49950d5f98e403677941c752e7e7ee47cb"},
     {file = "coverage-6.3-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1b4285fde5286b946835a1a53bba3ad41ef74285ba9e8013e14b5ea93deaeafc"},
     {file = "coverage-6.3-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a4748349734110fd32d46ff8897b561e6300d8989a494ad5a0a2e4f0ca974fc7"},
@@ -4012,8 +4009,8 @@ urllib3 = [
     {file = "urllib3-1.26.5.tar.gz", hash = "sha256:a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098"},
 ]
 uvicorn = [
-    {file = "uvicorn-0.17.0.post1-py3-none-any.whl", hash = "sha256:fa166e6c3d58e23ff5a1a3543b079c7b28aa057ab1388201e4b34a49ec05da72"},
-    {file = "uvicorn-0.17.0.post1.tar.gz", hash = "sha256:60a149248181920a73b2e97aec1dacec5501618867f041a228b2519d91a62a91"},
+    {file = "uvicorn-0.17.4-py3-none-any.whl", hash = "sha256:e85872d84fb651cccc4c5d2a71cf7ead055b8fb4d8f1e78e36092282c0cf2aec"},
+    {file = "uvicorn-0.17.4.tar.gz", hash = "sha256:25850bbc86195a71a6477b3e4b3b7b4c861fb687fb96912972ce5324472b1011"},
 ]
 uvloop = [
     {file = "uvloop-0.15.2-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:19fa1d56c91341318ac5d417e7b61c56e9a41183946cc70c411341173de02c69"},
